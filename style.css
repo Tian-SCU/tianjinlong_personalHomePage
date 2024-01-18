@@ -1,0 +1,48 @@
+/* Set backgroud color */
+section {
+    background-color: #e8f5e9; /* Mint Green */
+}
+
+/* Set a thick border to contact part */
+.contact-container {
+    position: fixed;
+    top: 50px; /* distance to top */
+    right: 20px; /* distance to right */
+}
+
+.contact-container ul {
+    border: 2px solid #ff4081; /* Pink */
+}
+
+/* Set <a> to a hover color */
+a:hover {
+    color: blue;
+}
+
+/* Set page font */
+body {
+    font-family: 'Arial', sans-serif;
+}
+/* Set every <h2> label with unique font and font-size */
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Adjust personal phtot style */
+.about-me-container img {
+    width: 200px;
+    height: auto;
+}
+
+/* CSS(10%) From index.html, link to an external stylesheet style.css for beautification of the page. You may feel free to explore more than what is required below:
+    a. A background color for one obvious part of the page
+        as section part
+    b. A thick color non-solid border somewhere in the page
+        as in contact me part. Border set
+    c. Different link colors when cursor is over the link text
+        as a:hover
+    d. Web font (e.g., Google Fonts)
+        as body{font-family:'Arial'}
+*/
