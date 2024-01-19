@@ -36,7 +36,8 @@ DOCUMENTATION (10%):
     <script src="script.js"></script>
 </head>
 
-<body onload="setEvent()">
+<!-- <body onload="setEvent()"> -->
+<body>
     <header>
         <h1 class="text-center">TianJinLong - Developer Personal Profile</h1>
     </header>
@@ -45,8 +46,8 @@ DOCUMENTATION (10%):
         <div class="row">
             <!-- About Me/Education/Skills. Brief introduction -->
             <div class="col-9 about-me-container">
+                <!-- Personal image & personal information -->
                 <section>
-                    <!-- Personal image & personal information -->
                     <h2>About Me</h2>
                     <img src="tianjinlong_profilephoto.jpg" alt="TianJinLong's Profile Photo">
                     <scan class="fs-3">Welcome to my Personal Profile Page!</scan>
@@ -292,35 +293,42 @@ DOCUMENTATION (10%):
                 <section>
                     <h2>Skills</h2>
                     <ul>
-                        <li class="badge bg-primary">Artificial Intelligence
-                            <div class="progress mt-1" role="progressbar" aria-label="Artificial Intelligence progress"
-                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar bg-primary" style="width: 25%">25%</div>
+                        <li class="badge bg-primary">Web Application Development
+                            <div class="progress mt-1" role="progressbar" aria-label="Web Application Development progress"
+                                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-primary" style="width: 65%">65%</div>
                             </div>
                         </li>
-                        <li class="badge bg-danger">Natural Language Processing
+                        <li class="badge bg-danger">JavaScript
                             <div class="progress mt-1" role="progressbar"
-                                aria-label="Natural Language Processing progress" aria-valuenow="50" aria-valuemin="0"
+                                aria-label="JavaScript progress" aria-valuenow="60" aria-valuemin="0"
                                 aria-valuemax="100">
-                                <div class="progress-bar bg-danger" style="width: 50%">50%</div>
+                                <div class="progress-bar bg-danger" style="width: 60%">60%</div>
                             </div>
                         </li>
-                        <li class="badge bg-warning text-dark">Machine Learning
-                            <div class="progress mt-1" role="progressbar" aria-label="Machine Learning progress"
-                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar bg-warning text-dark" style="width: 70%">70%</div>
+                        <li class="badge bg-warning text-dark">Wechat mini program
+                            <div class="progress mt-1" role="progressbar" aria-label="Wechat mini program progress"
+                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-warning text-dark" style="width: 60%">60%</div>
                             </div>
                         </li>
-                        <li class="badge text-bg-info">Web Development
-                            <div class="progress mt-1" role="progressbar" aria-label="Machine Learning progress"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar text-bg-info" style="width: 100%">100%</div>
+                        <li class="badge text-bg-dark">Vue+antvG6+wendiCss   
+                            <div class="progress mt-1" role="progressbar" aria-label="Vue progress"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar text-bg-dark" style="width: 50%">50%</div>
+                            </div>
+                        </li>
+                        <li class="badge text-bg-info">Java Language
+                            <div class="progress mt-1" role="progressbar" aria-label="Java progress"
+                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar text-bg-info" style="width: 30%">30%</div>
                             </div>
                         </li>
                     </ul>
                 </section>
 
-                <div id="areaChart"></div>
+                <!-- donutChart -->
+                <div id="donutChart"></div>
             </div>
 
             <!-- Contact & Add message information -->
