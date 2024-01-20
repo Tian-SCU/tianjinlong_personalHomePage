@@ -1,33 +1,32 @@
 window.addEventListener('load', function () {
     var chart = bb.generate({
-        bindto: "#areaChart",
         data: {
             columns: [
-                ["data1", 93, 50, 84, 74, 47],
-                ["data2", 37, 55, 53, 80, 44],
-                ["data3", 51, 12, 97, 45, 91]
+                ["Web Application Development", 65],
+                ["JavaScript", 60],
+                ["Wechat mini program", 60],
+                ["Java Language", 30],
+                ["Vue+antvG6+wendiCss", 50]
             ],
-            types: {
-                data1: "area",
-                data2: "area",
-                data3: "area"
-            },
-            colors: {
-                data1: "#ff0000",
-                data2: "#00ff00",
-                data3: "#0000ff"
-            }
-        }
+            type: "donut",
+            onclick: function (d, i) {},
+            onover: function (d, i) {},
+            onout: function (d, i) {}
+        },
+        donut: {
+            title: "Skills Evolution"
+        },
+        bindto: "#donutChart"
     });
 });
 
-function setEvent() {
-    // Get the image element
-    var image = document.querySelector('img');
+// function setEvent() {
+//     // Get the image element
+//     var image = document.querySelector('img');
 
-    // Set up a click event listener.
-    image.addEventListener('click', hideImage);
-}
+//     // Set up a click event listener.
+//     image.addEventListener('click', hideImage);
+// }
 
 // function hideImage() {
 //     var image = document.querySelector('img');
