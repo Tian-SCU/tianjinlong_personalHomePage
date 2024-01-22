@@ -6,7 +6,6 @@ section {
 /* Set a thick border to contact part */
 .contact-container {
     position: fixed;
-    top: 50px; /* distance to top */
     right: 20px; /* distance to right */
 }
 
