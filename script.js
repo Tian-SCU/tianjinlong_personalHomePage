@@ -7,7 +7,9 @@ window.addEventListener('load', function () {
                 ["Wechat mini program", 60],
                 ["Java Language", 30],
                 ["Vue+antvG6+wendiCss", 50],
-                ["webpack",30]
+                ["webpack",30],
+                ["React",80],
+                ["Flutter",30],
             ],
             type: "donut",
             onclick: function (d, i) {},
