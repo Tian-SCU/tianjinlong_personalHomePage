@@ -12,6 +12,33 @@ section {
     border: 2px solid #ff4081; /* Pink */
 }
 
+/* Handle long text overflow in contact section */
+.contact-container a {
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    display: inline-block;
+    line-height: 1.3;
+}
+
+.contact-container li {
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+/* For very long URLs, add ellipsis when needed */
+.contact-container li a {
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
 /* Set <a> to a hover color */
 a:hover {
     color: blue;
